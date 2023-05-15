@@ -77,7 +77,7 @@ export default {
     async fetchStockData(symbol) {
       try {
         const response = await axios.get(
-          `http://localhost:5000/api/stocks/${symbol}`
+          `https://flask-production-78c6.up.railway.app/api/stocks/${symbol}`
         );
         this.stock = response.data;
         return this.stock;
