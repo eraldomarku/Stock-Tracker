@@ -54,7 +54,6 @@ export default {
         { id: 2, name: 'Microsoft', selected: false, symbol: 'MSFT', color: '' },
         { id: 3, name: 'Google', selected: false, symbol: 'GOOGL', color: '' },
         { id: 4, name: 'Amazon', selected: false, symbol: 'AMZN', color: '' },
-        { id: 5, name: 'Facebook', selected: false, symbol: 'FB', color: '' },
         { id: 6, name: 'MSP Recovery', selected: false, symbol: 'LIFW', color: '' },
       ],
       stock: {
